@@ -101,8 +101,8 @@
 
         <script src="{{ asset('js/app.js') }}"></script>
         <script>
-            // Echo.private('events')
-            //     .listen('RealTimeMessage', (e) => console.log('Private RealTimeMessage: ' + e.message));
+            Echo.private('events')
+                .listen('RealTimeMessage', (e) => console.log('Private RealTimeMessage: ' + e.message));
 
 
             // Channel notification standard name App.NotifiableModel.Id
